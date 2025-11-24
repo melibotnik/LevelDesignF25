@@ -1,188 +1,128 @@
 
 {
-  "Title": "banger",
+  "Title": "undernight",
   "Author": "Melissa D",
-  "Events": [
-    {
-      "Time": 1.21,
-      "Who": "Example Monster",
-      "Action": "SetSpeed",
-      "Amt": 25
-    },
-    {
-      "Time": 1.21,
-      "Action": "MoveToX",
-      "Amt": -3
-    },
-    {
-      "Time": 2.02,
-      "Who": "Example Monster",
-      "Action": "Flash",
-      "Amt": 0.25
-    },
-    {
-      "Time": 2.02,
-      "Action": "MoveToY",
-      "Amt": 3
-    },
-    {
-      "Time": 3.06,
-      "Who": "Example Monster",
-      "Action": "SetSpeed",
-      "Amt": 30
-    },
-    {
-      "Time": 3.06,
-      "Action": "Shoot"
-    },
-    {
-      "Time": 4.21,
-      "Action": "MoveToX",
-      "Amt": 6
-    },
-    {
-      "Time": 4.21,
-      "Who": "Example Monster",
-      "Action": "Flash",
-      "Amt": 0.25
-    },
-    {
-      "Time": 5.02,
-      "Action": "Shoot"
-    },
-    {
-      "Time": 5.02,
-      "Action": "MoveToY",
-      "Amt": -3
-    },
-    {
-      "Time": 6.05,
-      "Who": "Example Monster",
-      "Action": "SetSpeed",
-      "Amt": 35
-    },
-    {
-      "Time": 6.05,
-      "Action": "MoveToX",
-      "Amt": -6
-    },
-    {
-      "Time": 7.17,
-      "Action": "MoveToY",
-      "Amt": 3
-    },
-    {
-      "Time": 7.17,
-      "Who": "Example Monster",
-      "Action": "Flash",
-      "Amt": 0.25
-    },
-    {
-      "Time": 8.07,
-      "Action": "ShootAtPlayer"
-    },
-    {
-      "Time": 8.07,
-      "Action": "MoveToX",
-      "Amt": 4
-    },
-    {
-      "Time": 9.09,
-      "Who": "Example Monster",
-      "Action": "SetSpeed",
-      "Amt": 40
-    },
-    {
-      "Time": 9.09,
-      "Action": "MoveToY",
-      "Amt": -3
-    },
-    {
-      "Time": 9.09,
-      "Action": "Shoot"
-    },
-    {
-      "Time": 10.19,
-      "Action": "MoveToX",
-      "Amt": -5
-    },
-    {
-      "Time": 10.19,
-      "Who": "Example Monster",
-      "Action": "Flash",
-      "Amt": 0.25
-    },
-    {
-      "Time": 10.19,
-      "Action": "ShootAtPlayer"
-    },
-    {
-      "Time": 11.11,
-      "Who": "Example Monster",
-      "Action": "SetSpeed",
-      "Amt": 45
-    },
-    {
-      "Time": 11.11,
-      "Action": "MoveToY",
-      "Amt": 3
-    },
-    {
-      "Time": 11.23,
-      "Action": "MoveToX",
-      "Amt": 6
-    },
-    {
-      "Time": 11.23,
-      "Action": "ShootAtPlayer"
-    },
-    {
-      "Time": 12.04,
-      "Action": "MoveToY",
-      "Amt": -3
-    },
-    {
-      "Time": 12.04,
-      "Action": "Shoot"
-    },
-    {
-      "Time": 13.07,
-      "Who": "Example Monster",
-      "Action": "SetSpeed",
-      "Amt": 50
-    },
-    {
-      "Time": 13.07,
-      "Action": "MoveToX",
-      "Amt": -6
-    },
-    {
-      "Time": 13.07,
-      "Action": "ShootAtPlayer"
-    },
-    {
-      "Time": 14.11,
-      "Action": "MoveToY",
-      "Amt": 3
-    },
-    {
-      "Time": 14.11,
-      "Action": "ShootAtPlayer"
-    },
-    {
-      "Time": 15.03,
-      "Action": "Shake",
-      "Amt": 2
-    },
-    {
-      "Time": 15.03,
-      "Action": "MoveToX",
-      "Amt": 0
-    },
-    {
-      "Time": 15.03,
-      "Action": "MoveToY",
-      "Amt": 0
-    }
+  "Events":
+  [
+    { "Time": 0.00, "Anim": "SpinShoot" },
+    { "Time": 0.00, "Action": "HitboxOff" },
+
+    { "Time": 1.21, "Action": "MoveToY", "Amt": 3 },
+
+    { "Time": 2.02, "Action": "MoveToX", "Amt": 6 },
+
+    { "Time": 3.06, "Action": "ShootAtPlayer" },
+    { "Time": 3.06, "Action": "FadeOut" },
+
+    { "Time": 4.00, "Action": "SetX", "Amt": -6 },
+    { "Time": 4.00, "Action": "FadeIn" },
+
+    { "Time": 4.21, "Action": "ShootAtPlayer" },
+
+    { "Time": 5.02, "Action": "MoveToY", "Amt": 0 },
+    { "Time": 5.02, "Action": "ShootAtPlayer" },
+
+    { "Time": 5.15, "Action": "MoveToY", "Amt": -3 },
+
+    { "Time": 6.05, "Action": "ShootAtPlayer" },
+
+    { "Time": 8.07, "Action": "MoveToX", "Amt": 0 },
+    { "Time": 8.07, "Action": "ShootAtPlayer" },
+
+    { "Time": 9.09, "Action": "ShootAtPlayer" },
+    { "Time": 9.09, "Action": "MoveToY", "Amt": 3 },
+
+    { "Time": 11.11, "Action": "ShootAtPlayer" },
+
+    { "Time": 11.23, "Action": "SetX", "Amt": -4 },
+    { "Time": 11.23, "Action": "ShootAtPlayer" },
+
+    { "Time": 12.04, "Action": "MoveToX", "Amt": 4 },
+    { "Time": 12.04, "Action": "ShootAtPlayer" },
+
+    { "Time": 13.07, "Action": "FadeOut" },
+
+    { "Time": 13.18, "Action": "MoveToX", "Amt": 0 },
+
+    { "Time": 14.11, "Action": "FadeIn" },
+
+    { "Time": 15.03, "Action": "ShootAtPlayer" },
+
+    { "Time": 16.18, "Action": "MoveToY", "Amt": -3 },
+    { "Time": 16.18, "Action": "ShootAtPlayer" },
+
+    { "Time": 16.29, "Action": "MoveToX", "Amt": -6 },
+    { "Time": 16.29, "Action": "ShootAtPlayer" },
+
+    { "Time": 17.10, "Action": "FadeOut" },
+
+    { "Time": 18.02, "Action": "SetX", "Amt": 6 },
+    { "Time": 18.02, "Action": "FadeIn" },
+
+    { "Time": 19.11, "Action": "ShootAtPlayer" },
+
+    { "Time": 19.17, "Action": "SetY", "Amt": 0 },
+    { "Time": 19.17, "Action": "ShootAtPlayer" },
+
+    { "Time": 19.28, "Action": "SetY", "Amt": 3 },
+
+    { "Time": 20.09, "Action": "ShootAtPlayer" },
+    { "Time": 20.09, "Action": "FadeOut" },
+    { "Time": 20.09, "Action": "SetX", "Amt": 0 },
+
+    { "Time": 20.20, "Action": "FadeIn" },
+
+    { "Time": 21.02, "Action": "Flash", "Amt": 4 },
+
+    { "Time": 25.04, "Action": "Shake", "Amt": 1 },
+    
+    { "Time": 25.16, "Action": "FadeOut" },
+
+    { "Time": 27.00, "Action": "SetSizeSpeed", "Amt": 5 },
+
+    { "Time": 27.11, "Action": "SetScale", "Amt": 5 },
+
+    { "Time": 27.23, "Action": "FadeIn" },
+
+    { "Time": 28.04, "Action": "MoveToY", "Amt": -3 },
+
+    { "Time": 28.15, "Action": "FadeOut" },
+
+    { "Time": 29.18, "Action": "SetSizeSpeed", "Amt": 5 },
+
+    { "Time": 29.18, "Action": "SetScale", "Amt": 0.6 },
+
+    { "Time": 30, "Action": "FadeIn" },
+
+    { "Time": 30.11, "Action": "SetX", "Amt": -6 },
+    { "Time": 30.11, "Action": "SetY", "Amt": 3 },
+
+    { "Time": 30.22, "Action": "ShootAtPlayer" },
+
+    { "Time": 31.03, "Action": "SetX", "Amt": 6 },
+    { "Time": 31.03, "Action": "SetY", "Amt": -3 },
+
+    { "Time": 31.14, "Action": "ShootAtPlayer" },
+
+    { "Time": 31.25, "Action": "SetX", "Amt": -6 },
+    { "Time": 31.25, "Action": "SetY", "Amt": -3 },
+
+    { "Time": 32.06, "Action": "ShootAtPlayer" },
+
+    { "Time": 32.18, "Action": "SetX", "Amt": 6 },
+    { "Time": 32.18, "Action": "SetY", "Amt": 3 },
+
+    { "Time": 32.29, "Action": "ShootAtPlayer" },
+    { "Time": 32.29, "Action": "MoveToPlayer" },
+
+    { "Time": 33.10, "Action": "ShootAtPlayer" },
+
+    { "Time": 36.09, "Action": "ShootAtPlayer" },
+    
+    { "Time": 38.22, "Action": "Stop" },
+    { "Time": 40.15, "Action": "FadeOut" },
+    { "Time": 40.29, "Action": "MoveToY", "Amt": 0 },
+    { "Time": 40.29, "Action": "MoveToX", "Amt": 0 }
+    
   ]
 }
